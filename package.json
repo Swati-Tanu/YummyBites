@@ -2,6 +2,7 @@
   "name": "YummyBites",
   "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -10,9 +11,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "engines": {
-    "node": ">=18 <22"
-  },
   "devDependencies": {
     "parcel": "^2.13.3",
     "process": "^0.11.10"
@@ -25,10 +23,5 @@
     "react-redux": "^9.2.0",
     "react-router-dom": "^6.22.0",
     "tailwindcss": "^4.0.14"
-  },
-  "targets": {
-    "default": {
-      "context": "browser"
-    }
   }
 }
