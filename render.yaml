@@ -2,9 +2,7 @@ services:
   - type: web
     name: yummybites
     env: node
-    envVars:
-      NODE_VERSION: 18.x
-    buildCommand: npm install && npm run build
+    buildCommand: npm run build
     startCommand: npm run start
     branch: main
     plan: free
