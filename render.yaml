@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: yummybites
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    staticPublishPath: dist
+    branch: main 
+    plan: free
