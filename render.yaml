@@ -4,6 +4,5 @@ services:
     env: node
     buildCommand: npm install && npm run build
     startCommand: npm run start
-    staticPublishPath: dist
-    branch: main 
+    branch: main
     plan: free
