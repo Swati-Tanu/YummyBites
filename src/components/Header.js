@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/logo.jpg";
+import Logo from "../../assets/images/logo.jpeg";
 import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
