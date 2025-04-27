@@ -1,11 +1,12 @@
-import Logo from "../../assets/images/logo.jpg";
 import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
 import { useSelector } from "react-redux";
+import Logo from "../../assets/images/logo.jpg";
 
 export const Header = () => {
+  console.log("==>", Logo);
   const [btnName, setBtnName] = useState("Login");
   const onlineStatus = useOnlineStatus();
   const { loggedInUser } = useContext(UserContext);
