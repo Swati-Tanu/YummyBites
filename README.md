@@ -65,3 +65,8 @@ npm run build
 | :-------: | 
  
  [SWATI TANU](https://github.com/Swati-Tanu) 
+
+ ## Contributions
+
+Contributions are always welcome! Please submit an issue using the issue tab above if you have feedback or improvement suggestions. I would appreciate it if you could submit a pull request with a fix.
+
