@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: yummybites
-    env: node
-    buildCommand: npm run build
-    startCommand: npm run start
-    branch: main
-    plan: free

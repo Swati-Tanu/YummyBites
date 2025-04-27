@@ -1,4 +1,4 @@
-import Logo from "../../assets/images/logo.jpeg";
+import Logo from "../../assets/images/logo.jpg";
 import { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
@@ -17,7 +17,7 @@ export const Header = () => {
   return (
     <div className="flex justify-between bg-sky-100 shadow-lg mb-2 sm:bg-gray-100 lg:bg-green-100">
       <div className="logo-container">
-        <img className="w-30" src={Logo} alt="logo"></img>
+        <img className="w-32" src={Logo} alt="logo"></img>
       </div>
       <div className="flex items-center">
         <ul className="flex p-4 m-4">
