@@ -6,7 +6,6 @@ import { useSelector } from "react-redux";
 import Logo from "../../assets/images/logo.jpg";
 
 export const Header = () => {
-  console.log("==>", Logo);
   const [btnName, setBtnName] = useState("Login");
   const onlineStatus = useOnlineStatus();
   const { loggedInUser } = useContext(UserContext);
