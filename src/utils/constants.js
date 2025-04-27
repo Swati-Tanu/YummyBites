@@ -6,3 +6,6 @@ export const RES_URL =
 
 export const MENU_URL =
   "https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=22.5743545&lng=88.3628734&restaurantId=";
+
+// For production: https://cors-anywhere.herokuapp.com
+
