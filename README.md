@@ -10,3 +10,58 @@
 <hr>
 
 ## TECH STACKS USED
+
+<p align = "center">
+
+  
+</p>
+<hr>
+
+## Features 
+-  
+
+## Run Locally
+### Clone this Project
+
+```
+https://github.com/Swati-Tanu/YummyBites
+```
+
+### Install npm Packages
+
+```javascript
+npm i --global
+```
+
+### Run Server 
+```javascript
+npm run start
+```
+### Runs the project in the development mode
+
+[http://localhost:1234](http://localhost:1234)
+
+### Builds the project for production
+
+```javascript
+npm run build
+```
+   
+<div align = "center">  
+
+
+| `Demo` |
+| :----: | 
+   
+
+[LIVE](https://yummybiteswebsite.netlify.app/)
+  
+| `Project Highlights` |
+| :------------------: | 
+
+
+ 
+| `Authors` |
+| :-------: | 
+ 
+ [SWATI TANU](https://github.com/Swati-Tanu) 
