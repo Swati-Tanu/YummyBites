@@ -9,17 +9,6 @@
 </div>
 <hr>
 
-## TECH STACKS USED
-
-<p align = "center">
-
-</p>
-<hr>
-
-## Features
-
--
-
 ## Run Locally
 
 ### Clone this Project
@@ -64,6 +53,22 @@ npm run build
    <h2>Landing Page</h2>
 
 ![alt text](image.png)
+
+  <h2>Restaurant Page</h2>
+
+![alt text](image-1.png)
+
+  <h2>Menu</h2>
+
+![alt text](image-2.png)
+
+  <h2>Cart</h2>
+
+![alt text](image-3.png)
+
+  <h2>Grocery Segment</h2>
+
+![alt text](image-4.png)
 
   <div/>
 <br>
