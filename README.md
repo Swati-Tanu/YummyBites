@@ -13,14 +13,15 @@
 
 <p align = "center">
 
-  
 </p>
 <hr>
 
-## Features 
--  
+## Features
+
+-
 
 ## Run Locally
+
 ### Clone this Project
 
 ```
@@ -33,10 +34,12 @@ https://github.com/Swati-Tanu/YummyBites
 npm i --global
 ```
 
-### Run Server 
+### Run Server
+
 ```javascript
 npm run start
 ```
+
 ### Runs the project in the development mode
 
 [http://localhost:1234](http://localhost:1234)
@@ -46,27 +49,30 @@ npm run start
 ```javascript
 npm run build
 ```
-   
-<div align = "center">  
 
+<div align = "center">
 
 | `Demo` |
-| :----: | 
-   
+| :----: |
 
 [LIVE](https://yummybiteswebsite.netlify.app/)
-  
+
 | `Project Highlights` |
-| :------------------: | 
+| :------------------: |
 
+ <div align = "center">
+   <h2>Landing Page</h2>
 
+![alt text](image.png)
+
+  <div/>
+<br>
  
 | `Authors` |
 | :-------: | 
  
- [SWATI TANU](https://github.com/Swati-Tanu) 
+ [SWATI TANU](https://github.com/Swati-Tanu)
 
- ## Contributions
+## Contributions
 
 Contributions are always welcome! Please submit an issue using the issue tab above if you have feedback or improvement suggestions. I would appreciate it if you could submit a pull request with a fix.
-
