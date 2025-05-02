@@ -60,15 +60,15 @@ npm run build
 
   <h2>Menu</h2>
 
-![alt text](image-2.png)
+![alt text](assets/images/image-2.png)
 
   <h2>Cart</h2>
 
-![alt text](image-3.png)
+![alt text](assets/images/image-3.png)
 
   <h2>Grocery Segment</h2>
 
-![alt text](image-4.png)
+![alt text](assets/images/image-4.png)
 
   <div/>
 <br>
