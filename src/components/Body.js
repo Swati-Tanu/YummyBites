@@ -28,16 +28,21 @@ const Body = () => {
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch(RES_URL);
+    try {
+      const data = await fetch(RES_URL);
+      const json = await data.json();
 
-    const json = await data.json();
+      const restaurants = json?.data?.cards?.find(
+        (card) => card?.card?.card?.gridElements?.infoWithStyle?.restaurants
+      )?.card?.card?.gridElements?.infoWithStyle?.restaurants;
 
-    const restraunt =
-      json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle
-        ?.restaurants;
-
-    setListOfRestaurants(restraunt);
-    setFilteredRestaurant(restraunt);
+      setListOfRestaurants(restaurants || []);
+      setFilteredRestaurant(restaurants || []);
+    } catch (err) {
+      console.error("Failed to fetch restaurants:", err);
+      setListOfRestaurants([]);
+      setFilteredRestaurant([]);
+    }
   };
 
   const onlineStatus = useOnlineStatus();
@@ -91,8 +96,7 @@ const Body = () => {
             Search
           </button>
         </div>
-        <div className="search m-4 p-4 flex items-center">
-        </div>
+        <div className="search m-4 p-4 flex items-center"></div>
       </div>
       <div className="flex flex-wrap">
         {filteredRestaurant.map((el) => {
