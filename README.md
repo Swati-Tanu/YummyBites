@@ -56,7 +56,7 @@ npm run build
 
   <h2>Restaurant Page</h2>
 
-![alt text](image-1.png)
+![alt text](assets/images/image-1.png)
 
   <h2>Menu</h2>
 
