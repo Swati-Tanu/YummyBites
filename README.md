@@ -52,7 +52,7 @@ npm run build
  <div align = "center">
    <h2>Landing Page</h2>
 
-![alt text](image.png)
+![alt text](assets/images/image.png)
 
   <h2>Restaurant Page</h2>
 
